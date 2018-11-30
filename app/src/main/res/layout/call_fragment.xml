@@ -11,13 +11,14 @@
         android:layout_height="wrap_content"
         android:background="#fff"
         android:orientation="horizontal">
-    <EditText
-        android:id="@+id/editText_main"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="2dp"
-        android:inputType="phone"
-        android:hint="Enter a phone number" />
+
+        <EditText
+            android:id="@+id/editText_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:hint="Enter a phone number"
+            android:inputType="phone" />
 
     <ImageButton
         android:id="@+id/phone_icon"

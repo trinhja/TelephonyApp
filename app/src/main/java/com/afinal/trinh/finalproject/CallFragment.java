@@ -1,17 +1,23 @@
 package com.afinal.trinh.finalproject;
 
 import android.Manifest;
+import android.annotation.TargetApi;
 import android.app.PendingIntent;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.pm.PackageManager;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.app.Activity;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.LocalBroadcastManager;
 import android.telephony.SmsManager;
+import android.telephony.SmsMessage;
 import android.telephony.TelephonyManager;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -34,13 +40,16 @@ public class CallFragment extends Fragment {
 
     private TelephonyManager mTelephonyManager;
 
-
+    private SmsReceiver mSMSreceiver;
+    private IntentFilter mIntentFilter;
     private ImageButton callButton;
     private EditText editText;
     private Button retryButton;
     private EditText smsEditText;
     private ImageButton smsButton;
     private ListView listMessage;
+
+    private int MY_PERMISSIONS_REQUEST_SMS_RECEIVE = 10;
  //   private static final String TAG = "Tab1Fragment";
 
 //    private Button btnTEST
@@ -50,12 +59,20 @@ public class CallFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.call_fragment,container,false);
 
+
+        ActivityCompat.requestPermissions(getActivity(),
+                new String[]{Manifest.permission.RECEIVE_SMS},
+                MY_PERMISSIONS_REQUEST_SMS_RECEIVE);
+
         callButton = (ImageButton) view.findViewById(R.id.phone_icon);
         editText = (EditText) view.findViewById(R.id.editText_main);
         retryButton = (Button) view.findViewById(R.id.button_retry);
         smsEditText = (EditText) view.findViewById(R.id.sms_message);
         smsButton = (ImageButton) view.findViewById(R.id.message_icon);
         listMessage = (ListView) view.findViewById(R.id.messages_list);
+
+
+
         callButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -112,6 +129,7 @@ public class CallFragment extends Fragment {
         return view;
     }
 
+
     public void hideKeyboard(View view) {
 
 
@@ -119,23 +137,6 @@ public class CallFragment extends Fragment {
         mgr.hideSoftInputFromWindow(view.getWindowToken(), 0);
 
     }
-/*
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-
-
-        //btnTEST = (Button) view.findViewById(R.id.btnTEST);
-
-        /*btnTEST.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getActivity(), "TESTING BUTTON CLICK 1",Toast.LENGTH_SHORT).show();
-            }
-        });*/
-
-    //}
 
     private void checkForPhonePermission() {
         if (getActivity().checkSelfPermission(

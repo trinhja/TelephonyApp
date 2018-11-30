@@ -5,80 +5,128 @@
     build-mode="COLD"
     density="xxhdpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
+    ir-eligibility="R_CLASS_CHANGE"
     plugin-version="3.1.4"
-    timestamp="1543534291765"
-    token="-7688827286535279393"
+    timestamp="1543555584850"
+    token="1111024800278192450"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="314" />
+        duration="1374" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="23" />
+        duration="49" />
     <task
         name="verifier"
-        duration="10" />
+        duration="39" />
 
     <artifact
-        location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1543533996339"
+        timestamp="1543554471602"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1543534291765"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1543555050222"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1543555407949"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1543555584850"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
     </build>
 

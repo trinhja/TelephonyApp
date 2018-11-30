@@ -1,0 +1,19 @@
+#Internal package file, do not edit.
+#Thu Nov 29 18:21:00 EST 2018
+1.base=C\:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\46
+2.path=classes.dex
+0.baseType=DIRECTORY
+3.baseType=DIRECTORY
+2.base=C\:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\47
+3.set=DEX
+2.set=DEX
+1.baseType=DIRECTORY
+3.path=classes.dex
+count=4
+1.set=DEX
+0.path=classes.dex
+3.base=C\:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\45
+0.set=DEX
+0.base=C\:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\48
+2.baseType=DIRECTORY
+1.path=classes.dex

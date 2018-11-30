@@ -1,0 +1,4 @@
+#Thu Nov 29 18:31:34 EST 2018
+base.0=C\:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\38
+path.0=classes.dex
+renamed.0=classes.dex

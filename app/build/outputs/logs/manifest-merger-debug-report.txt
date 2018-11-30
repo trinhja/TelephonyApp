@@ -1,0 +1,186 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:2:1-25:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\742fe90abd42b42f1fef7ea188b382a8\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\43dbca0b491525a32c86630079138418\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\d11ac42a182653cd8e7a13f926c47be6\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\df3185b73ebea28753c366846d28e50b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\d1904a12ae864e5e579677c70ab92be0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\e1447e4cc580bcebad8aeb4eb18b95b3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\4f47e869abebfa6335fdac90a98ea9f5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\b62aaf96d5eb71a02506cc4c847cbcda\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\5385ffa5ba3c061274cb07cf9345b85f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\bc1b7877646b308a06159a3210ea3618\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\26cf8820f1869262cf9a4658e30e6eef\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\fc861260f360d5fcfc8a1459674e9e2d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\aad185763ca6e7aa465236346954232c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\54140ef4ef0ebeb19ec5e8fbcecc5116\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\ab2c9fde7dd7b01e5e65d6ad41242f6b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\5af1a9d03498cf9e38de0f40757a46b6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\ea77b4c6a60b1a9b1a44aa8266c98a49\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\7e3df5535f1f39388eaff6b59e4014a3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\c8a7c8f21ee733cb773afd4df5420df6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\0a09d505cbca844da3626fc6b6af7d81\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\7c06cdd6a99d72b92078511d4c59d106\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\cbe3d08ee9ed791b4fa4785cee9ae1d3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\6560c4df5089e1d9de32a9520ee26e5a\AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\8d3acaace964d798918388df46e484b4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\0fd83f48bc4f1514de45379c6e0f5c64\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\346a1fd03dd919c9bddde0135648cadb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\6fc924af4dffe9d14c53e6da28352594\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\85d45ecb3fbdc7129bca86592b0a4a57\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\4db54fd252cd2b5376bb679af4eac054\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\44ffb6200770457ee575851e695615ae\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\df2803fcc59822f33f3c30a496e5a1c1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\8b9830cdb1dc4dfbcb98d7513e4ecd6f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\14792b5977a146aeccc51885c5be5b46\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:5:5-69
+	android:name
+		ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:5:22-66
+uses-permission#android.permission.SEND_SMS
+ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:6:22-64
+application
+ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:8:5-23:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\742fe90abd42b42f1fef7ea188b382a8\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\742fe90abd42b42f1fef7ea188b382a8\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\d11ac42a182653cd8e7a13f926c47be6\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\d11ac42a182653cd8e7a13f926c47be6\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\7c06cdd6a99d72b92078511d4c59d106\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\7c06cdd6a99d72b92078511d4c59d106\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\6560c4df5089e1d9de32a9520ee26e5a\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\6560c4df5089e1d9de32a9520ee26e5a\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\7c06cdd6a99d72b92078511d4c59d106\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.afinal.trinh.finalproject.MainActivity
+ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:15:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:19:27-74
+activity#com.afinal.trinh.finalproject.CallFragment
+ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:22:9-59
+	android:name
+		ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:22:19-47
+uses-sdk
+INJECTED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\742fe90abd42b42f1fef7ea188b382a8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\742fe90abd42b42f1fef7ea188b382a8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\43dbca0b491525a32c86630079138418\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\43dbca0b491525a32c86630079138418\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\d11ac42a182653cd8e7a13f926c47be6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\d11ac42a182653cd8e7a13f926c47be6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\df3185b73ebea28753c366846d28e50b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\df3185b73ebea28753c366846d28e50b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\d1904a12ae864e5e579677c70ab92be0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\d1904a12ae864e5e579677c70ab92be0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\e1447e4cc580bcebad8aeb4eb18b95b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\e1447e4cc580bcebad8aeb4eb18b95b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\4f47e869abebfa6335fdac90a98ea9f5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\4f47e869abebfa6335fdac90a98ea9f5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\b62aaf96d5eb71a02506cc4c847cbcda\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\b62aaf96d5eb71a02506cc4c847cbcda\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\5385ffa5ba3c061274cb07cf9345b85f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\5385ffa5ba3c061274cb07cf9345b85f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\bc1b7877646b308a06159a3210ea3618\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\bc1b7877646b308a06159a3210ea3618\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\26cf8820f1869262cf9a4658e30e6eef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\26cf8820f1869262cf9a4658e30e6eef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\fc861260f360d5fcfc8a1459674e9e2d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\fc861260f360d5fcfc8a1459674e9e2d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\aad185763ca6e7aa465236346954232c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\aad185763ca6e7aa465236346954232c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\54140ef4ef0ebeb19ec5e8fbcecc5116\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\54140ef4ef0ebeb19ec5e8fbcecc5116\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\ab2c9fde7dd7b01e5e65d6ad41242f6b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\ab2c9fde7dd7b01e5e65d6ad41242f6b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\5af1a9d03498cf9e38de0f40757a46b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\5af1a9d03498cf9e38de0f40757a46b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\ea77b4c6a60b1a9b1a44aa8266c98a49\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\ea77b4c6a60b1a9b1a44aa8266c98a49\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\7e3df5535f1f39388eaff6b59e4014a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\7e3df5535f1f39388eaff6b59e4014a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\c8a7c8f21ee733cb773afd4df5420df6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\c8a7c8f21ee733cb773afd4df5420df6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\0a09d505cbca844da3626fc6b6af7d81\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\0a09d505cbca844da3626fc6b6af7d81\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\7c06cdd6a99d72b92078511d4c59d106\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\7c06cdd6a99d72b92078511d4c59d106\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\cbe3d08ee9ed791b4fa4785cee9ae1d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\cbe3d08ee9ed791b4fa4785cee9ae1d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\6560c4df5089e1d9de32a9520ee26e5a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\6560c4df5089e1d9de32a9520ee26e5a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\8d3acaace964d798918388df46e484b4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\8d3acaace964d798918388df46e484b4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\0fd83f48bc4f1514de45379c6e0f5c64\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\0fd83f48bc4f1514de45379c6e0f5c64\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\346a1fd03dd919c9bddde0135648cadb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\346a1fd03dd919c9bddde0135648cadb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\6fc924af4dffe9d14c53e6da28352594\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\6fc924af4dffe9d14c53e6da28352594\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\85d45ecb3fbdc7129bca86592b0a4a57\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\85d45ecb3fbdc7129bca86592b0a4a57\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\4db54fd252cd2b5376bb679af4eac054\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\4db54fd252cd2b5376bb679af4eac054\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\44ffb6200770457ee575851e695615ae\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\44ffb6200770457ee575851e695615ae\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\df2803fcc59822f33f3c30a496e5a1c1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\df2803fcc59822f33f3c30a496e5a1c1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\8b9830cdb1dc4dfbcb98d7513e4ecd6f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\8b9830cdb1dc4dfbcb98d7513e4ecd6f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\14792b5977a146aeccc51885c5be5b46\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Jacky-T420\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\14792b5977a146aeccc51885c5be5b46\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml

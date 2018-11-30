@@ -15,6 +15,8 @@ public class SmsReceiver extends BroadcastReceiver {
     private final String TAG = SmsReceiver.class.getSimpleName();
     public static final String pdu_type = "pdus";
 
+
+
     @TargetApi(Build.VERSION_CODES.M)
     @Override
     public void onReceive(Context context, Intent intent) {
@@ -41,11 +43,15 @@ public class SmsReceiver extends BroadcastReceiver {
                     msgs[i] = SmsMessage.createFromPdu((byte[]) pdus[i]);
                 }
                 // Build the message to show.
-                strMessage += "SMS from " + msgs[i].getOriginatingAddress();
-                strMessage += " :" + msgs[i].getMessageBody() + "\n";
+                strMessage += msgs[i].getOriginatingAddress();
+                strMessage += ": " + msgs[i].getMessageBody() + "\n";
                 // Log and display the SMS message.
                 Log.d(TAG, "onReceive: " + strMessage);
-                Toast.makeText(context, strMessage, Toast.LENGTH_LONG).show();
+
+                Intent in = new Intent("broadcast");
+                in.putExtra("message", strMessage);
+                context.sendBroadcast(in);
+                //Toast.makeText(context, strMessage, Toast.LENGTH_LONG).show();
             }
         }
     }

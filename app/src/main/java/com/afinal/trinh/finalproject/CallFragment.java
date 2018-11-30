@@ -24,11 +24,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
 
 import static android.content.Context.TELEPHONY_SERVICE;
 
@@ -50,9 +55,7 @@ public class CallFragment extends Fragment {
     private ListView listMessage;
 
     private int MY_PERMISSIONS_REQUEST_SMS_RECEIVE = 10;
- //   private static final String TAG = "Tab1Fragment";
 
-//    private Button btnTEST
 
     @Nullable
     @Override
@@ -72,7 +75,7 @@ public class CallFragment extends Fragment {
         listMessage = (ListView) view.findViewById(R.id.messages_list);
 
 
-
+        getActivity().registerReceiver(broadcastReceiver, new IntentFilter("broadcast"));
         callButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -122,13 +125,48 @@ public class CallFragment extends Fragment {
                 }
             }
         });
-
-
-
-
+//
+//        smsEditText.setOnEditorActionListener(new View.On {
+//            @Override
+//            public void onFocusChange(View v, boolean hasFocus) {
+//                if (!hasFocus) {
+//                    hideKeyboard(v);
+//                }
+//            }
+//        });
         return view;
     }
 
+
+
+
+    private BroadcastReceiver broadcastReceiver =  new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent)
+        {
+            Bundle b = intent.getExtras();
+            final String message = b.getString("message");
+
+            getActivity().runOnUiThread(new Runnable() {
+
+                @Override
+                public void run() {
+                    // TODO Auto-generated method stub
+                    updateMessage(message);
+
+                }
+            });
+        }
+    };
+    List<String> messages = new ArrayList<>();
+    public void updateMessage(String message)
+    {
+        messages.add(message);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(Objects.requireNonNull(getActivity()), android.R.layout.simple_list_item_1, messages);
+
+        listMessage.setAdapter(adapter);
+
+    }
 
     public void hideKeyboard(View view) {
 
@@ -184,6 +222,13 @@ public class CallFragment extends Fragment {
                 .getLaunchIntentForPackage(getActivity().getPackageName());
         startActivity(intent);
     }
+
+    public void onDestroy() {
+        super.onDestroy();
+
+        getActivity().unregisterReceiver(broadcastReceiver);
+    }
+
 /*
     public void dialNumber(View view) {
         TextView textView = (TextView) findViewById(R.id.number_to_call);
@@ -203,24 +248,31 @@ public class CallFragment extends Fragment {
     }*/
 
     public void smsSendMessage(View view) {
-        //EditText editText = (EditText) findViewById(R.id.number_to_call);
-        // Set the destination phone number to the string in editText.
-        String destinationAddress = editText.getText().toString();
-        // Find the sms_message view.
-        //EditText smsEditText = (EditText) findViewById(R.id.sms_message);
-        // Get the text of the SMS message.
-        String smsMessage = smsEditText.getText().toString();
-        // Set the service center address if needed, otherwise null.
-        String scAddress = null;
-        // Set pending intents to broadcast
-        // when message sent and when delivered, or set to null.
-        PendingIntent sentIntent = null, deliveryIntent = null;
-        // Use SmsManager.
-        checkForSmsPermission();
-        SmsManager smsManager = SmsManager.getDefault();
-        smsManager.sendTextMessage
-                (destinationAddress, scAddress, smsMessage,
-                        sentIntent, deliveryIntent);
+
+        if (editText.getText().length() > 0) {
+            //EditText editText = (EditText) findViewById(R.id.number_to_call);
+            // Set the destination phone number to the string in editText.
+            String destinationAddress = editText.getText().toString();
+            // Find the sms_message view.
+            //EditText smsEditText = (EditText) findViewById(R.id.sms_message);
+            // Get the text of the SMS message.
+            String smsMessage = smsEditText.getText().toString();
+            // Set the service center address if needed, otherwise null.
+            String scAddress = null;
+            // Set pending intents to broadcast
+            // when message sent and when delivered, or set to null.
+            PendingIntent sentIntent = null, deliveryIntent = null;
+            // Use SmsManager.
+            checkForSmsPermission();
+            SmsManager smsManager = SmsManager.getDefault();
+            smsManager.sendTextMessage
+                    (destinationAddress, scAddress, smsMessage,
+                            sentIntent, deliveryIntent);
+            updateMessage(smsMessage);
+            smsEditText.setText("");
+        } else {
+            Toast.makeText(getActivity(), "Phone number cannot be empty.", Toast.LENGTH_LONG).show();
+        }
     }
 
     private void enableSmsButton() {

@@ -30,13 +30,6 @@
             </intent-filter>
         </activity>
 
-        <!-- <receiver -->
-        <!-- android:name=".CallFragment$mYourBroadcastReceiver" -->
-        <!-- android:permission="android.permission.BROADCAST_SMS" -->
-        <!-- android:enabled="true" -->
-        <!-- android:exported="true"> -->
-        <!-- </receiver> -->
-
         <receiver
             android:name="com.afinal.trinh.finalproject.SmsReceiver"
             android:enabled="true"

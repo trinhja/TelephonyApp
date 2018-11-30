@@ -43,14 +43,14 @@
             android:text="Retry"
             android:visibility="invisible" />
     </LinearLayout>
+
     <ListView
-        android:layout_width="match_parent"
         android:id="@+id/messages_list"
-        android:layout_weight="2"
-        android:layout_gravity="center"
-        android:divider="#fff"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:divider="#fff" />
 
 
 

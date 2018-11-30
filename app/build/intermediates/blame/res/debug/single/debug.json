@@ -268,6 +268,10 @@
         "source": "C:\\Users\\Jacky-T420\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d1904a12ae864e5e579677c70ab92be0\\res\\anim\\abc_slide_in_top.xml"
     },
     {
+        "merged": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_my_message.xml.flat",
+        "source": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\src\\main\\res\\drawable\\my_message.xml"
+    },
+    {
         "merged": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_design_ic_visibility.png.flat",
         "source": "C:\\Users\\Jacky-T420\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\d11ac42a182653cd8e7a13f926c47be6\\res\\drawable-mdpi-v4\\design_ic_visibility.png"
     },
@@ -288,16 +292,16 @@
         "source": "C:\\Users\\Jacky-T420\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d1904a12ae864e5e579677c70ab92be0\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\Jacky-T420\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d1904a12ae864e5e579677c70ab92be0\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+        "merged": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_textfield_search_material.xml.flat",
+        "source": "C:\\Users\\Jacky-T420\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d1904a12ae864e5e579677c70ab92be0\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
         "merged": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_ripple_color.xml.flat",
         "source": "C:\\Users\\Jacky-T420\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\d11ac42a182653cd8e7a13f926c47be6\\res\\color\\mtrl_tabs_ripple_color.xml"
     },
     {
-        "merged": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_textfield_search_material.xml.flat",
-        "source": "C:\\Users\\Jacky-T420\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d1904a12ae864e5e579677c70ab92be0\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Jacky-T420\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d1904a12ae864e5e579677c70ab92be0\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_vector_test.xml.flat",
@@ -476,6 +480,10 @@
         "source": "C:\\Users\\Jacky-T420\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d1904a12ae864e5e579677c70ab92be0\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_my_message.xml.flat",
+        "source": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\src\\main\\res\\layout\\my_message.xml"
+    },
+    {
         "merged": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_tooltip_enter.xml.flat",
         "source": "C:\\Users\\Jacky-T420\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d1904a12ae864e5e579677c70ab92be0\\res\\anim\\abc_tooltip_enter.xml"
     },
@@ -524,12 +532,12 @@
         "source": "C:\\Users\\Jacky-T420\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d1904a12ae864e5e579677c70ab92be0\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\Jacky-T420\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d1904a12ae864e5e579677c70ab92be0\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
@@ -1024,6 +1032,10 @@
         "source": "C:\\Users\\Jacky-T420\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d1904a12ae864e5e579677c70ab92be0\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+        "merged": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle.xml.flat",
+        "source": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\src\\main\\res\\drawable\\circle.xml"
+    },
+    {
         "merged": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_tab_indicator_material.xml.flat",
         "source": "C:\\Users\\Jacky-T420\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d1904a12ae864e5e579677c70ab92be0\\res\\drawable\\abc_tab_indicator_material.xml"
     },
@@ -1350,6 +1362,10 @@
     {
         "merged": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Jacky-T420\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d1904a12ae864e5e579677c70ab92be0\\res\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_their_message.xml.flat",
+        "source": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\src\\main\\res\\layout\\their_message.xml"
     },
     {
         "merged": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\build\\intermediates\\res\\merged\\debug\\interpolator-v21_mtrl_fast_out_slow_in.xml.flat",
@@ -1694,6 +1710,10 @@
     {
         "merged": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
         "source": "C:\\Users\\Jacky-T420\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\7c06cdd6a99d72b92078511d4c59d106\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_their_message.xml.flat",
+        "source": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\src\\main\\res\\drawable\\their_message.xml"
     },
     {
         "merged": "C:\\Users\\Jacky-T420\\Documents\\Semester_6\\PROG39402_Advance_Java_Mobile_App_Dev\\Final\\telephonyApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",

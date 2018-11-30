@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">finalProject</string>
-    <string name="contact_name">Jane Doe</string>
+    <string name="app_name">Telephony Messenger</string>
     <string name="enter_phone">Enter a phone number</string>
     <string name="make_a_call">Make a call</string>
     <string name="retry">retry</string>

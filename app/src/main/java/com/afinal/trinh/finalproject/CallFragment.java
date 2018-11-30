@@ -21,6 +21,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.ListView;
 import android.widget.Toast;
 
 import static android.content.Context.TELEPHONY_SERVICE;
@@ -39,6 +40,7 @@ public class CallFragment extends Fragment {
     private Button retryButton;
     private EditText smsEditText;
     private ImageButton smsButton;
+    private ListView listMessage;
  //   private static final String TAG = "Tab1Fragment";
 
 //    private Button btnTEST
@@ -53,6 +55,7 @@ public class CallFragment extends Fragment {
         retryButton = (Button) view.findViewById(R.id.button_retry);
         smsEditText = (EditText) view.findViewById(R.id.sms_message);
         smsButton = (ImageButton) view.findViewById(R.id.message_icon);
+        listMessage = (ListView) view.findViewById(R.id.messages_list);
         callButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -102,6 +105,9 @@ public class CallFragment extends Fragment {
                 }
             }
         });
+
+
+
 
         return view;
     }

@@ -15,7 +15,6 @@ import android.app.Activity;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
-import android.support.v4.content.LocalBroadcastManager;
 import android.telephony.SmsManager;
 import android.telephony.SmsMessage;
 import android.telephony.TelephonyManager;
@@ -25,6 +24,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -32,6 +32,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Objects;
 
@@ -45,16 +46,17 @@ public class CallFragment extends Fragment {
 
     private TelephonyManager mTelephonyManager;
 
-    private SmsReceiver mSMSreceiver;
-    private IntentFilter mIntentFilter;
+
     private ImageButton callButton;
     private EditText editText;
     private Button retryButton;
     private EditText smsEditText;
     private ImageButton smsButton;
     private ListView listMessage;
-
+    private boolean theirMessages;
     private int MY_PERMISSIONS_REQUEST_SMS_RECEIVE = 10;
+    private HashMap<String, List<String>> numMessageMap = new HashMap<String, List<String>>();
+    //private List<String> messages = new ArrayList<>();
 
 
     @Nullable
@@ -146,22 +148,37 @@ public class CallFragment extends Fragment {
         {
             Bundle b = intent.getExtras();
             final String message = b.getString("message");
-
+            final String number = b.getString("number");
             getActivity().runOnUiThread(new Runnable() {
 
                 @Override
                 public void run() {
                     // TODO Auto-generated method stub
-                    updateMessage(message);
+                    theirMessages = true;
+
+                    putMessagesInMap(number, message);
+                    // Get value from map if value exist and then updates it.
+//                    if (numMessageMap.get(number) != null) {
+//                        messages = numMessageMap.get(number);
+//                        messages.add(message);
+//                    }
+//                    numMessageMap.put(number, messages);
+//                    messages.clear();
+
+//                    mapIntent.putExtra("numMessageMap", numMessageMap);
+//                    getActivity().startActivity(mapIntent);
+
+                    updateMessage(number, message);
 
                 }
             });
         }
     };
-    List<String> messages = new ArrayList<>();
-    public void updateMessage(String message)
+
+
+    public void updateMessage(String number, String message)
     {
-        messages.add(message);
+        List<String> messages = numMessageMap.get(number);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(Objects.requireNonNull(getActivity()), android.R.layout.simple_list_item_1, messages);
 
         listMessage.setAdapter(adapter);
@@ -268,12 +285,47 @@ public class CallFragment extends Fragment {
             smsManager.sendTextMessage
                     (destinationAddress, scAddress, smsMessage,
                             sentIntent, deliveryIntent);
-            updateMessage(smsMessage);
+
+            String number = editText.getText().toString();
+            theirMessages = false;
+
+            putMessagesInMap(number, smsMessage);
+
+//            // get message from the map and update it and store back into message
+//            if (numMessageMap.get(number) != null) {
+//                messages = numMessageMap.get(number);
+//                messages.add(smsMessage);
+//            }
+//            numMessageMap.put(number, messages);
+//            messages.clear();
+//
+//            mapIntent.putExtra("numMessageMap", numMessageMap);
+//            getActivity().startActivity(mapIntent);
+
+            updateMessage(number, smsMessage);
             smsEditText.setText("");
         } else {
             Toast.makeText(getActivity(), "Phone number cannot be empty.", Toast.LENGTH_LONG).show();
         }
     }
+
+    private void putMessagesInMap(String number, String smsMessages) {
+        List<String> messages = new ArrayList<>();
+
+        // get message from the map and update it and store back into message
+        if (numMessageMap.get(number) != null) {
+            messages = numMessageMap.get(number);
+
+        }
+        messages.add(smsMessages);
+        numMessageMap.put(number, messages);
+
+        Intent mapIntent = new Intent(getActivity().getBaseContext(), MainActivity.class);
+        mapIntent.putExtra("numMessageMap", numMessageMap);
+        //getActivity().startActivity(mapIntent);
+    }
+
+
 
     private void enableSmsButton() {
         //ImageButton smsButton = (ImageButton) findViewById(R.id.message_icon);

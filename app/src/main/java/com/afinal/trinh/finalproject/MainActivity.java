@@ -1,5 +1,6 @@
 package com.afinal.trinh.finalproject;
 
+import android.content.Intent;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -19,6 +20,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import android.widget.TextView;
+
+import java.util.HashMap;
+import java.util.List;
 
 import static android.content.Context.TELEPHONY_SERVICE;
 
@@ -41,12 +45,26 @@ public class MainActivity extends AppCompatActivity {
         mViewPager = (ViewPager) findViewById(R.id.container);
         setupViewPager(mViewPager);
 
+        Intent intent = getIntent();
+
+        HashMap<String, List<String>> numMessageMap = (HashMap<String, List<String>>)intent.getSerializableExtra("numMessageMap");
+        Bundle bundle = new Bundle();
+        bundle.putSerializable("numMessageMap", numMessageMap);
+        //set Fragmentclass Arguments
+        Messages messages = new Messages();
+        messages.setArguments(bundle);
+
+
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
     }
 
+
+
+
     private void setupViewPager(ViewPager viewPager) {
         PageAdapter adapter = new PageAdapter(getSupportFragmentManager());
+        adapter.addFragment(new Messages(), "Messages");
         adapter.addFragment(new CallFragment(), "Messaging");
         adapter.addFragment(new ContactFragment(), "Contacts");
         //adapter.addFragment(new Tab3Fragment(), "TAB3");

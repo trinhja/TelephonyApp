@@ -50,6 +50,7 @@ public class SmsReceiver extends BroadcastReceiver {
 
                 Intent in = new Intent("broadcast");
                 in.putExtra("message", strMessage);
+                in.putExtra("number", msgs[i].getOriginatingAddress());
                 context.sendBroadcast(in);
                 //Toast.makeText(context, strMessage, Toast.LENGTH_LONG).show();
             }

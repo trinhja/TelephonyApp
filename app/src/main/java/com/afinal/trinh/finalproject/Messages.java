@@ -1,8 +1,6 @@
 package com.afinal.trinh.finalproject;
 
 
-import android.app.Activity;
-import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -21,33 +19,19 @@ import java.util.Objects;
 
 public class Messages extends Fragment {
     private HashMap<String, List<String>> numMessageMap;
-    private List<String> numberList = new ArrayList<>();
     private boolean myIsVisibleToUser;
-
-    private ListView listMessage;
+    private ListView listMessages;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.messages_fragment,container,false);
+        listMessages = (ListView) view.findViewById(R.id.chats_list);
 
-        listMessage = (ListView) getActivity().findViewById(R.id.messages_list);
 
-        // Inflate the layout for this fragment
-//        if (getArguments() != null) {
-//            numMessageMap = (HashMap<String, List<String>>) getArguments().getSerializable("numMessageMap");
-//
-//            for (String key : numMessageMap.keySet()) {
-//                numberList.add(key);
-//            }
-//
-//            ArrayAdapter<String> adapter = new ArrayAdapter<String>(Objects.requireNonNull(getActivity()), android.R.layout.simple_list_item_1, numberList);
-//
-//            listMessage.setAdapter(adapter);
-//        } else {
-//            Toast.makeText(getActivity(), "Sorry, you have no messages!", Toast.LENGTH_LONG).show();
-//        }
-
-        return inflater.inflate(R.layout.messages_fragment, container, false);
+        return view;
     }
+
+
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
@@ -56,26 +40,37 @@ public class Messages extends Fragment {
         setUserVisibleHint(myIsVisibleToUser);
 
     }
+
+    @Override
+    public void onResume(){
+        super.onResume();
+
+
+    }
+
     @Override
     public void setUserVisibleHint(boolean isVisibleToUser) {
         super.setUserVisibleHint(isVisibleToUser);
         myIsVisibleToUser=isVisibleToUser;
         if (isVisibleToUser && getActivity()!=null) {
             if (isVisibleToUser) {
-                if (getArguments() != null) {
-                    numMessageMap = (HashMap<String, List<String>>) getArguments().getSerializable("numMessageMap");
 
-                    for (String key : numMessageMap.keySet()) {
-                        numberList.add(key);
+                if (((MainActivity) getActivity()).getNumMessageMap() != null) {
+                    numMessageMap = ((MainActivity) getActivity()).getNumMessageMap();
+
+                    List<String> numberList = new ArrayList<String>();
+                    if (numMessageMap != null) {
+                        for (String key : numMessageMap.keySet()) {
+                            numberList.add(key);
+                        }
+
+                        ArrayAdapter<String> adapter = new ArrayAdapter<String>(Objects.requireNonNull(getActivity()), android.R.layout.simple_list_item_1, numberList);
+                        listMessages.setAdapter(adapter);
                     }
+                }
 
-                    ArrayAdapter<String> adapter = new ArrayAdapter<String>(Objects.requireNonNull(getActivity()), android.R.layout.simple_list_item_1, numberList);
+                if (numMessageMap == null || numMessageMap.isEmpty()) {
 
-                    listMessage.setAdapter(adapter);
-                } else {
-//                numberList.add("Sorry, you have no messages!");
-//                ArrayAdapter<String> adapter = new ArrayAdapter<String>(Objects.requireNonNull(getActivity()), android.R.layout.simple_list_item_1, numberList);
-//                listMessage.setAdapter(adapter);
                     Toast.makeText(getActivity(), "Sorry, you have no messages!", Toast.LENGTH_LONG).show();
                 }
             }

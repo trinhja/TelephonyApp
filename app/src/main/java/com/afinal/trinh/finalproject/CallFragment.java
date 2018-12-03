@@ -1,7 +1,6 @@
 package com.afinal.trinh.finalproject;
 
 import android.Manifest;
-import android.annotation.TargetApi;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -9,14 +8,11 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
-import android.app.Activity;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.telephony.SmsManager;
-import android.telephony.SmsMessage;
 import android.telephony.TelephonyManager;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -24,7 +20,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
-import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -53,10 +48,9 @@ public class CallFragment extends Fragment {
     private EditText smsEditText;
     private ImageButton smsButton;
     private ListView listMessage;
-    private boolean theirMessages;
     private int MY_PERMISSIONS_REQUEST_SMS_RECEIVE = 10;
-    private HashMap<String, List<String>> numMessageMap = new HashMap<String, List<String>>();
-    //private List<String> messages = new ArrayList<>();
+     HashMap<String, List<String>> numMessageMap = new HashMap<String, List<String>>();
+    MainActivity main = new MainActivity();
 
 
     @Nullable
@@ -139,8 +133,26 @@ public class CallFragment extends Fragment {
         return view;
     }
 
+    DataCommunication mCallback;
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
 
+        // This makes sure that the container activity has implemented
+        // the callback interface. If not, it throws an exception
+        try {
+            mCallback = (DataCommunication) context;
+        } catch (ClassCastException e) {
+            throw new ClassCastException(context.toString()
+                    + " must implement TextClicked");
+        }
+    }
 
+    @Override
+    public void onDetach() {
+        mCallback = null;
+        super.onDetach();
+    }
 
     private BroadcastReceiver broadcastReceiver =  new BroadcastReceiver() {
         @Override
@@ -154,19 +166,7 @@ public class CallFragment extends Fragment {
                 @Override
                 public void run() {
                     // TODO Auto-generated method stub
-                    theirMessages = true;
-
                     putMessagesInMap(number, message);
-                    // Get value from map if value exist and then updates it.
-//                    if (numMessageMap.get(number) != null) {
-//                        messages = numMessageMap.get(number);
-//                        messages.add(message);
-//                    }
-//                    numMessageMap.put(number, messages);
-//                    messages.clear();
-
-//                    mapIntent.putExtra("numMessageMap", numMessageMap);
-//                    getActivity().startActivity(mapIntent);
 
                     updateMessage(number, message);
 
@@ -287,20 +287,9 @@ public class CallFragment extends Fragment {
                             sentIntent, deliveryIntent);
 
             String number = editText.getText().toString();
-            theirMessages = false;
 
             putMessagesInMap(number, smsMessage);
 
-//            // get message from the map and update it and store back into message
-//            if (numMessageMap.get(number) != null) {
-//                messages = numMessageMap.get(number);
-//                messages.add(smsMessage);
-//            }
-//            numMessageMap.put(number, messages);
-//            messages.clear();
-//
-//            mapIntent.putExtra("numMessageMap", numMessageMap);
-//            getActivity().startActivity(mapIntent);
 
             updateMessage(number, smsMessage);
             smsEditText.setText("");
@@ -320,9 +309,8 @@ public class CallFragment extends Fragment {
         messages.add(smsMessages);
         numMessageMap.put(number, messages);
 
-        Intent mapIntent = new Intent(getActivity().getBaseContext(), MainActivity.class);
-        mapIntent.putExtra("numMessageMap", numMessageMap);
-        //getActivity().startActivity(mapIntent);
+        ((MainActivity)getActivity()).setNumMessageMap(numMessageMap);
+
     }
 
 

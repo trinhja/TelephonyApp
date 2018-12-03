@@ -92,6 +92,8 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Jacky-T420
 		ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:15:9-40
 activity#com.afinal.trinh.finalproject.MainActivity
 ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:16:9-22:20
+	android:screenOrientation
+		ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:16:48-84
 	android:name
 		ADDED from C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\src\main\AndroidManifest.xml:16:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER

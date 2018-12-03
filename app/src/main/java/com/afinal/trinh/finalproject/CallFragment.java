@@ -173,7 +173,7 @@ public class CallFragment extends Fragment {
                     // TODO Auto-generated method stub
                     putMessagesInMap(number, message);
 
-                    updateMessage(number, message);
+                    updateMessage(number);
 
                 }
             });
@@ -181,7 +181,7 @@ public class CallFragment extends Fragment {
     };
 
 
-    public void updateMessage(String number, String message)
+    public void updateMessage(String number)
     {
         List<String> messages = numMessageMap.get(number);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(Objects.requireNonNull(getActivity()), android.R.layout.simple_list_item_1, messages);
@@ -296,7 +296,7 @@ public class CallFragment extends Fragment {
             putMessagesInMap(number, smsMessage);
 
 
-            updateMessage(number, smsMessage);
+            updateMessage(number);
             smsEditText.setText("");
         } else {
             Toast.makeText(getActivity(), "Phone number cannot be empty.", Toast.LENGTH_LONG).show();
@@ -441,9 +441,10 @@ public class CallFragment extends Fragment {
                 if (((MainActivity) getActivity()).getNumber() != null) {
                     number = ((MainActivity) getActivity()).getNumber();
 
-                    Toast.makeText(getActivity(), number, Toast.LENGTH_SHORT).show();
-                }
+                    editText.setText(number);
 
+                    updateMessage(number);
+                }
             }
         }
     }

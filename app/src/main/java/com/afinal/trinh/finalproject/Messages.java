@@ -80,7 +80,7 @@ public class Messages extends Fragment {
 
                 if (numMessageMap == null || numMessageMap.isEmpty()) {
 
-                    Toast.makeText(getActivity(), "You have no messages!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getActivity(), "You have no messages. :(", Toast.LENGTH_LONG).show();
                 }
             }
         }

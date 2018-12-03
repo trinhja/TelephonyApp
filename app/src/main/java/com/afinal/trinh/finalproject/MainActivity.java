@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
+import android.telecom.Call;
 import android.util.Log;
 
 
@@ -20,7 +21,9 @@ public class MainActivity extends AppCompatActivity implements DataCommunication
 
     private ViewPager mViewPager;
 
+
     private HashMap<String, List<String>> numMessageMap;
+    private String number;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +36,7 @@ public class MainActivity extends AppCompatActivity implements DataCommunication
         // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.container);
         setupViewPager(mViewPager);
+
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
@@ -48,6 +52,19 @@ public class MainActivity extends AppCompatActivity implements DataCommunication
         return numMessageMap;
     }
 
+    @Override
+    public void setNumber(String number) {
+        this.number = number;
+    }
+
+    @Override
+    public String getNumber (){
+        return number;
+    }
+
+    public void selectTab(int position) {
+        mViewPager.setCurrentItem(position);
+    }
 
     private void setupViewPager(ViewPager viewPager) {
         PageAdapter adapter = new PageAdapter(getSupportFragmentManager());

@@ -5,24 +5,24 @@
     build-mode="COLD"
     density="xxhdpi"
     format="10"
-    ir-eligibility="FIELD_REMOVED"
+    ir-eligibility="METHOD_ADDED"
     plugin-version="3.1.4"
-    timestamp="1543820668484"
+    timestamp="1543825278009"
     token="1111024800278192450"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1104" />
+        duration="715" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="298" />
+        duration="140" />
     <task
         name="verifier"
-        duration="289" />
+        duration="66" />
 
     <artifact
         location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -107,8 +107,8 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="FIELD_REMOVED"
-        timestamp="1543820668484"
+        ir-eligibility="METHOD_ADDED"
+        timestamp="1543825278009"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Jacky-T420\Documents\Semester_6\PROG39402_Advance_Java_Mobile_App_Dev\Final\telephonyApp\app\build\intermediates\split-apk\debug\slices\slice_4.apk"

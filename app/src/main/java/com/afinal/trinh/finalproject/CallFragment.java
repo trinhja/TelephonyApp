@@ -51,7 +51,7 @@ public class CallFragment extends Fragment {
     private int MY_PERMISSIONS_REQUEST_SMS_RECEIVE = 10;
      HashMap<String, List<String>> numMessageMap = new HashMap<String, List<String>>();
     MainActivity main = new MainActivity();
-
+    private String number;
 
     @Nullable
     @Override
@@ -63,6 +63,11 @@ public class CallFragment extends Fragment {
                 new String[]{Manifest.permission.RECEIVE_SMS},
                 MY_PERMISSIONS_REQUEST_SMS_RECEIVE);
 
+//        if (getArguments() != null) {
+//            number = getArguments().getString("number");
+//
+//            Toast.makeText(getActivity(), number, Toast.LENGTH_SHORT).show();
+//        }
         callButton = (ImageButton) view.findViewById(R.id.phone_icon);
         editText = (EditText) view.findViewById(R.id.editText_main);
         retryButton = (Button) view.findViewById(R.id.button_retry);
@@ -416,5 +421,30 @@ public class CallFragment extends Fragment {
 
         }
          */
+    }
+    private boolean myIsVisibleToUser;
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+        setUserVisibleHint(myIsVisibleToUser);
+
+    }
+
+    @Override
+    public void setUserVisibleHint(boolean isVisibleToUser) {
+        super.setUserVisibleHint(isVisibleToUser);
+        myIsVisibleToUser=isVisibleToUser;
+        if (isVisibleToUser && getActivity()!=null) {
+            if (isVisibleToUser) {
+
+                if (((MainActivity) getActivity()).getNumber() != null) {
+                    number = ((MainActivity) getActivity()).getNumber();
+
+                    Toast.makeText(getActivity(), number, Toast.LENGTH_SHORT).show();
+                }
+
+            }
+        }
     }
 }

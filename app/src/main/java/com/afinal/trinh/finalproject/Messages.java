@@ -1,12 +1,17 @@
 package com.afinal.trinh.finalproject;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
+import android.telecom.Call;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -21,6 +26,7 @@ public class Messages extends Fragment {
     private HashMap<String, List<String>> numMessageMap;
     private boolean myIsVisibleToUser;
     private ListView listMessages;
+    List<String> numberList;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -28,23 +34,26 @@ public class Messages extends Fragment {
         listMessages = (ListView) view.findViewById(R.id.chats_list);
 
 
+        listMessages.setOnItemClickListener(new ListView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> a, View v, int i, long l) {
+
+
+                ((MainActivity)getActivity()).setNumber(numberList.get(i));
+                ((MainActivity)getActivity()).selectTab(1);
+
+            }
+        });
+
+
         return view;
     }
-
-
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
         setUserVisibleHint(myIsVisibleToUser);
-
-    }
-
-    @Override
-    public void onResume(){
-        super.onResume();
-
 
     }
 
@@ -58,7 +67,7 @@ public class Messages extends Fragment {
                 if (((MainActivity) getActivity()).getNumMessageMap() != null) {
                     numMessageMap = ((MainActivity) getActivity()).getNumMessageMap();
 
-                    List<String> numberList = new ArrayList<String>();
+                    numberList = new ArrayList<String>();
                     if (numMessageMap != null) {
                         for (String key : numMessageMap.keySet()) {
                             numberList.add(key);
@@ -71,10 +80,12 @@ public class Messages extends Fragment {
 
                 if (numMessageMap == null || numMessageMap.isEmpty()) {
 
-                    Toast.makeText(getActivity(), "Sorry, you have no messages!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getActivity(), "You have no messages!", Toast.LENGTH_LONG).show();
                 }
             }
         }
     }
+
+
 
 }

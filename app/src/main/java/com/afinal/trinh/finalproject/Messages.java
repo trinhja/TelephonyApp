@@ -40,7 +40,7 @@ public class Messages extends Fragment {
 
 
                 ((MainActivity)getActivity()).setNumber(numberList.get(i));
-                ((MainActivity)getActivity()).selectTab(1);
+                ((MainActivity)getActivity()).selectTab(0);
 
             }
         });
@@ -63,7 +63,6 @@ public class Messages extends Fragment {
         myIsVisibleToUser=isVisibleToUser;
         if (isVisibleToUser && getActivity()!=null) {
             if (isVisibleToUser) {
-
                 if (((MainActivity) getActivity()).getNumMessageMap() != null) {
                     numMessageMap = ((MainActivity) getActivity()).getNumMessageMap();
 
